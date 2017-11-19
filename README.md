@@ -1,7 +1,7 @@
 ## Welcome to wuchengcheng's GitHub Pages
 
 
-**<font size=5>尽量避免问题，遇到问题，解决问题：</font>**
+**尽量避免问题，遇到问题，解决问题**
 --------
 
 # JAVA 学习 #
