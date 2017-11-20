@@ -1,3 +1,6 @@
+## [上一页](course4)
+
+
 ### 2.4 类与对象（引用传递初次分析） ###
 
 所有初学者最难的部分就是引用传递的分析。
@@ -80,5 +83,5 @@
 
 ------
 
-## [back to the list](learnJava)
-## [next page](course6)
+## [返回目录](https://wuchengcheng110120.github.io/learnJava)
+## [下一页](course6)
