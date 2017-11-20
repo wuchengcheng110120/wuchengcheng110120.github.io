@@ -1,3 +1,6 @@
+## [上一页](course5)
+
+
 ## 3 利用private实现封装 ##
 
 
@@ -120,5 +123,5 @@ private只是封装的第一步，学习private为了学习基本程序逻辑，
 
 
 
-## [back to the list](learnJava)
-## [next page](course7)
+## [返回目录](https://wuchengcheng110120.github.io/learnJava)
+## [下一页](course7)
