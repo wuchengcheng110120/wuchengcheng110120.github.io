@@ -1,3 +1,6 @@
+## [上一页](course3)
+
+
 ### 2.3 类与对象（对象的内存分析） ###
 
 如果想对对象进行产生分析，那么就必须清楚引用类型。
@@ -70,5 +73,6 @@ string初始化为null，int初始化为0
 
 
 
-## [back to the list](learnJava)
-## [next page](course5)
+
+## [返回目录](https://wuchengcheng110120.github.io/learnJava)
+## [下一页](course5)
