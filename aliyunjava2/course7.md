@@ -1,7 +1,7 @@
 ## [上一页](course6)
 
 
-### 4构造方法与匿名对象###
+### 4构造方法与匿名对象 ###
 
 实例化对象产生格式：
 
@@ -228,6 +228,121 @@
 既然构造方法属于方法，那么方法就一定可以进行重载，而构造方法的重载更加简单，因为方法名称不能修改，因此只能够实现参数个数和类型不同这一概念。
 
 **范例** 构造方法重载：
+
+class Person{
+		private String name;
+		private int age;
+		public Person() {}
+		public Person(String n) {
+			name = n;
+		}
+		//定义一个有参构造方法，则默认的无参构造方法将不会在编译时生成
+		public Person(String n, int a) {
+			name = n;//setName(n)
+			setAge(a);
+		}
+		public void setName(String n) {
+			name = n;
+		}
+		public void setAge(int a) {
+			if(a >= 0 && a<= 250) {
+				age = a;
+			}else {
+				age = 0;
+			}
+		}
+		public String getName() {
+			return name;
+		}
+		public int getAge() {
+			return age;
+		}
+		public void info() {
+			System.out.println("name = "+ name + "、age = "+  age);
+		}
+	}
+	public class TestDemo {
+	
+		public static void main(String[] args) {
+			Person per = new Person("张三",-200);
+			per.setName("张三");
+			per.setAge(18);
+			per.info();
+		}
+	}
+
+
+**console**： 
+
+    name = 张三、age = 18
+
+但是在构造方法进行重载的时候，请注意一下定义结构。建议若干个构造方法按照参数的个数采用升序或降序排列。
+
+同时要注意一点：在进行类定义的时候，请按照如下顺序完成：
+
+- 第一部分写属性；
+
+- 第二部分写构造方法；
+
+- 第三部分写普通方法。
+
+
+发现构造方法可以传递属性的内容，很多时候为了使用方便，往往会使用匿名对象完成。
+
+**范例** 匿名对象：
+
+	class Person{
+		private String name;
+		private int age;
+		//定义一个有参构造方法，则默认的无参构造方法将不会在编译时生成
+		public Person(String n, int a) {
+			name = n;//setName(n)
+			setAge(a);
+		}
+		public void setName(String n) {
+			name = n;
+		}
+		public void setAge(int a) {
+			if(a >= 0 && a<= 250) {
+				age = a;
+			}else {
+				age = 0;
+			}
+		}
+		public String getName() {
+			return name;
+		}
+		public int getAge() {
+			return age;
+		}
+		public void info() {
+			System.out.println("name = "+ name + "、age = "+  age);
+		}
+	}
+	public class TestDemo {
+	
+		public static void main(String[] args) {
+			new Person("张三",20).info();
+		}
+	}
+
+**console**： 
+
+    name = 张三、age = 20
+
+
+由于一匿名对象不会有任何栈空间，所以使用一次后就变成垃圾空间。
+现在是否使用匿名对象，没有定论，涉及到以后会详细说明
+
+
+**总结：**
+
+> 构造方法每个类中至少存在一个；
+
+> 构造方法的名称与类名称相同，无返回值类型定义；
+
+> 构造方法允许重载，重载时只需要考虑方法的参数类型或个数即可
+ 
 
 
 
