@@ -1,6 +1,7 @@
 ## Welcome to wuchengcheng's GitHub Pages
 
 **尽量避免问题，当遇到问题，想办法解决问题**
+
 [关于我](aboutmyself)
 --------
 
