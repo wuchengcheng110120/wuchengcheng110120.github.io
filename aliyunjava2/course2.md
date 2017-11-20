@@ -1,3 +1,6 @@
+## [上一页](course2)
+
+
 ## 2 类与对象 ##
 ### 2.1 类与对象（类与对象的基本定义） ###
 
@@ -26,5 +29,5 @@
 
 
 
-## [back to the list](learnJava)
-## [next page](course3)
+## [返回目录](https://github.com/wuchengcheng110120/wuchengcheng110120.github.io/learnJava)
+## [下一页](course3)
