@@ -5,9 +5,11 @@
 
 ## 1面向对象简介 ##
 
-	OOA(面向对象分析),OOD（面向对象设计）,OOP（面向对象编程）
+	
 
-封装、继承、多态
+> **OOA(面向对象分析),OOD（面向对象设计）,OOP（面向对象编程）**
+
+面向对象特征：封装、继承、多态
 
 类共性特征，个性特征
 
@@ -19,20 +21,21 @@
 ## 2类与对象 ##
 ### 2.1类与对象（类与对象的基本定义） ###
 
-class 类名 {
-	
-	属性；
-	属性；
-	方法（）{
-	    }
+	class 类名 {
 		
-}
+		属性；
+		属性；
+		方法（）{
+		    }
+			
+	}
 
 类定义完之后是不能够直接去使用的，想要使用类那么必须产生对象
 	
     而对象的定义分为以下两种语法形式：
- 	
+ 		
 	声明并实例化对象： 类名称 对象名称 = new 类名称（）；
+
 	分步进行对象实例化：
 		声明对象：类名称 对象名称 = null
 		实例化对象：对象名称 = new 类名称
@@ -97,7 +100,9 @@ class 类名 {
 			}
 		}
 
-**console**：name = null、age = 0 
+**console**：
+
+	name = null、age = 0 
 
 string初始化为null，int初始化为0
 
@@ -174,7 +179,9 @@ string初始化为null，int初始化为0
 		}
 	}
 
-**console**：name = 狗剩、age = 30
+**console**：
+
+	name = 狗剩、age = 30
 
 
 内存参考图：
@@ -207,18 +214,25 @@ string初始化为null，int初始化为0
 		}
 	}
 
-**console**：name = 狗剩、age = 30
+**console**：
+	
+	name = 狗剩、age = 30
 
 观察此时的内存分析图：
 
 ![](https://i.imgur.com/3y7tRhc.png)
 
 
-在程序开发过程中，所谓的垃圾空间就是指没有任何栈内存指向的堆内存空间，所有的垃圾空间将被JAVA中的垃圾收集器（GC,garbage collector）进行回收，以实现内存空间的释放，不过从实际开发来讲，虽然JAVA提供有GC，但是GC也会造成程序性能的下降，所以程序开发过程中一定要控制好你的对象的产生数量，即：无用的对象尽可能少产生。
+在程序开发过程中，所谓的垃圾空间就是指
+> 没有任何栈内存指向的堆内存空间
+
+所有的垃圾空间将被JAVA中的垃圾收集器（GC,garbage collector）进行回收，以实现内存空间的释放，不过从实际开发来讲，虽然JAVA提供有GC，但是GC也会造成程序性能的下降，所以程序开发过程中一定要控制好你的对象的产生数量，即：无用的对象尽可能少产生。
 
 ------
 ## 3利用private实现封装 ##
-面向对象三大特征：封装、继承、多态
+
+
+> 面向对象三大特征：封装、继承、多态
 
 封装是整个JAVA中最复杂的概念，本次讲解是封装的基本概念。
 
@@ -315,7 +329,9 @@ string初始化为null，int初始化为0
 			per.info();
 		}
 	}	
-**console**：name = 张三、age = 0
+**console**：
+
+    name = 张三、age = 0
 
 
 无论是否使用setter（）和getter（）都要提供。
@@ -328,7 +344,8 @@ string初始化为null，int初始化为0
 
 而使用***private*** 封装的属性如果需要被外部类使用，那么就按照格式定义相应的setter（）和getter（）方法。
 
-private实现封装的最大特征在于：只允许本类访问而不允许其他类访问。
+private实现封装的最大特征在于：
+> 只允许本类访问而不允许其他类访问。
 
 private只是封装的第一步，学习private为了学习基本程序逻辑，封装还要结合继承和多态。
 
@@ -349,7 +366,7 @@ private只是封装的第一步，学习private为了学习基本程序逻辑，
 
 通过以上分析可知，构造方法在使用new实例化对象时就调用了，但是对于构造方法定义需要遵守以下原则：
 
-类中一定会至少存在有一个构造方法，如果类中没有明确的定义任何一个构造方法，那么将生成一个无参的，什么都不做的构造方法。
+> 类中一定会至少存在有一个构造方法，如果类中没有明确的定义任何一个构造方法，那么将生成一个无参的，什么都不做的构造方法。
 
 **范例** 定义一个构造方法：
 
@@ -391,9 +408,10 @@ private只是封装的第一步，学习private为了学习基本程序逻辑，
 		}
 	}
 
-**console**： *********** 
+**console**： 
 
-name = 张三、age = 0
+    *********** 
+    name = 张三、age = 0
 
 **疑问？** 为什么构造函数中没有返回数据，为什么没有使用void定义呢？	
 
@@ -409,9 +427,11 @@ name = 张三、age = 0
 
 - 程序通过定义结构上的差异进行归类的
 
-对于类中可以自动生成的无参构造方法实际上是有一个前提：类中没有定义任何构造方法，相反，如果现在类中已经定义了构造方法，那么此类默认构造方法将不会自动生成。
+对于类中可以自动生成的无参构造方法实际上是有一个前提：
 
-**范例** 类中定义一个有参构造方法：
+> 类中没有定义任何构造方法，相反，如果现在类中已经定义了构造方法，那么此类默认构造方法将不会自动生成。
+
+**范例** 类中定义一个有参构造方法1：
 		
 	class Person{
 		private String name;
@@ -454,6 +474,106 @@ name = 张三、age = 0
 
 **console**： 
 
-error：The constructor Person() is undefined
+    error：The constructor Person() is undefined
+
+**范例** 类中定义一个有参构造方法2：
+
+	class Person{
+		private String name;
+		private int age;
+		//定义一个有参构造方法，则默认的无参构造方法将不会在编译时生成
+		public Person(String n, int a) {
+			name = n;//setName(n)
+			setAge(a);
+		}
+		public void setName(String n) {
+			name = n;
+		}
+		public void setAge(int a) {
+			if(a >= 0 && a<= 250) {
+				age = a;
+			}else {
+				age = 0;
+			}
+		}
+		public String getName() {
+			return name;
+		}
+		public int getAge() {
+			return age;
+		}
+		public void info() {
+			System.out.println("name = "+ name + "、age = "+  age);
+		}
+	}
+
+	public class TestDemo {
+	
+		public static void main(String[] args) {
+			Person per = new Person("张三",-200);
+			per.setName("张三");
+			per.setAge(-200);
+			per.info();
+		}
+	}
+**console**： 
+
+    name = 张三、age = 0
+
+**构造方法作用：**
+
+- 构造方法的调用和对象内存分配几乎是同步完成的，所以可以利用构造方法设置类中的属性内容
+ 
+- > **构造方法可以为类中的属性进行初始化处理**；
+
+- 通过构造方法设置内容实际上可以避免重复的setter调用
+	
+	> 在实际开发之中setter方法除了具备有设置内容之外，还可以承担修改数据的操作；
+
+**范例** 通过*setter（）* 修改数据：
+
+	class Person{
+		private String name;
+		private int age;
+		//定义一个有参构造方法，则默认的无参构造方法将不会在编译时生成
+		public Person(String n, int a) {
+			name = n;//setName(n)
+			setAge(a);
+		}
+		public void setName(String n) {
+			name = n;
+		}
+		public void setAge(int a) {
+			if(a >= 0 && a<= 250) {
+				age = a;
+			}else {
+				age = 0;
+			}
+		}
+		public String getName() {
+			return name;
+		}
+		public int getAge() {
+			return age;
+		}
+		public void info() {
+			System.out.println("name = "+ name + "、age = "+  age);
+		}
+	}
+
+	public class TestDemo {
+	
+		public static void main(String[] args) {
+			Person per = new Person("张三",-200);
+			per.setName("张三");
+			per.setAge(18);
+			per.info();
+		}
+	}
+
+**console**： 
+
+    name = 张三、age = 18
+
 
 
