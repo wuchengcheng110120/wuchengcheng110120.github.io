@@ -1,6 +1,6 @@
 # JAVA 学习 #
 ----------
-## 1面向对象简介 ##
+## 1 面向对象简介 ##
 
 	
 
@@ -17,3 +17,4 @@
 
 
 ## [back to the list](learnJava)
+## [next page](course2)

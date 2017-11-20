@@ -1,4 +1,4 @@
-## 3利用private实现封装 ##
+## 3 利用private实现封装 ##
 
 
 > 面向对象三大特征：封装、继承、多态
@@ -117,3 +117,8 @@ private实现封装的最大特征在于：
 > 只允许本类访问而不允许其他类访问。
 
 private只是封装的第一步，学习private为了学习基本程序逻辑，封装还要结合继承和多态。
+
+
+
+## [back to the list](learnJava)
+## [next page](course7)
