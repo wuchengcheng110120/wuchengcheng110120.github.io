@@ -103,7 +103,7 @@ class 类名 {
 			}
 		}
 
-**<font size=5>console</font>**：name = null、age = 0 
+**console**：name = null、age = 0 
 
 string初始化为null，int初始化为0
 
@@ -179,7 +179,7 @@ string初始化为null，int初始化为0
 			}
 		}
 
-**<font size=5>console</font>**：name = 狗剩、age = 30
+**console**：name = 狗剩、age = 30
 
 
 内存参考图：
@@ -211,7 +211,7 @@ string初始化为null，int初始化为0
 			}
 		}
 
-**<font size=5>console</font>**：name = 狗剩、age = 30
+**console**：name = 狗剩、age = 30
 
 观察此时的内存分析图：
 
@@ -318,14 +318,14 @@ string初始化为null，int初始化为0
 				per.info();
 			}
 		}	
-**<font size=5>console</font>**：name = 张三、age = 0
+**console**：name = 张三、age = 0
 
 
 无论是否使用setter（）和getter（）都要提供。
 
 如果现在非要进行检测要在setter（）中进行。
 
-**<font size=5>类的设计原则：</font>**
+***类的设计原则：***
 
 以后在编写类的时候类中的所有属性必须使用***private*** 封装。
 
