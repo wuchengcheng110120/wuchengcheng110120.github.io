@@ -1,3 +1,6 @@
+## [last page](course2)
+
+
 ### 2.2 类与对象（类与对象定义） ###
 
 所有的对象只有实例化之后才可以真正使用，而对象的使用都是围绕着类来进行的那么此时使用就有两种形式：
@@ -29,5 +32,5 @@
 
 
 
-## [back to the list](learnJava)
+## [back to the list](https://wuchengcheng110120.github.io/learnJava)
 ## [next page](course4)
