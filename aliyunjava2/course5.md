@@ -79,3 +79,6 @@
 所有的垃圾空间将被JAVA中的垃圾收集器（GC,garbage collector）进行回收，以实现内存空间的释放，不过从实际开发来讲，虽然JAVA提供有GC，但是GC也会造成程序性能的下降，所以程序开发过程中一定要控制好你的对象的产生数量，即：无用的对象尽可能少产生。
 
 ------
+
+## [back to the list](learnJava)
+## [next page](course6)
