@@ -16,6 +16,6 @@
 
 
 
-## [back to the list](https://wuchengcheng110120.github.io/learnJava)
-## [next page](course2)
+## [返回目录](https://wuchengcheng110120.github.io/learnJava)
+## [下一页](course2)
 
