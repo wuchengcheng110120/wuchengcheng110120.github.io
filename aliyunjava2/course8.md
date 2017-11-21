@@ -83,7 +83,7 @@
 		}
 	}
 
-**CONSOLE:**
+**console:**
 
 	empno = 7369
 	ename = SMITH
