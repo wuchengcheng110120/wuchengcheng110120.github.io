@@ -7,4 +7,4 @@
 ## [课时5：类与对象（引用传递初次分析）](aliyunjava2/course5)
 ## [课时6：pirvate实现封装处理](aliyunjava2/course6)
 ## [课时7：构造方法与匿名对象](aliyunjava2/course7)
-
+## [课时8：【第01个代码模型】综合案例：简单Java类](aliyunjava2/course8)
