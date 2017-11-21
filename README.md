@@ -1,6 +1,6 @@
 ## Welcome to wuchengcheng's GitHub Pages
 
-**与其感慨路难行，不如马上出发
+**与其感慨路难行，不如马上出发**
 
 -> [关于我](aboutmyself)
 --------
