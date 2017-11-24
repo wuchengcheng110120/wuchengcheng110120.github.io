@@ -15,3 +15,4 @@
 ## [课时13：数组的定义与使用（数组与方法互操作）](aliyunjava2/course13)
 ## [课时14：数组的定义与使用（Java对数组的支持）](aliyunjava2/course14)
 ## [课时15：数组的定义与使用（数组案例：数组数据统计）](aliyunjava2/course15)
+## [课时16：数组的定义与使用（数组案例：数组排序）](aliyunjava2/course16)
