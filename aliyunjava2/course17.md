@@ -131,7 +131,7 @@
 	2、5、8、
 	3、6、9、
 
-逻辑题多练习即可。
+逻辑题多练习即可
 
 
 ## [返回目录](https://wuchengcheng110120.github.io/learnJava)
