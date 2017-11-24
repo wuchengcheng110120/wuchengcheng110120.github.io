@@ -2,6 +2,7 @@
 
 ## 6.8 数组案例：数组排序
 
+
 很多面试题都会出现数组排序的操作形式，但是不要写：java.util.Arrays.sort（数组），
 
 而这种排序以升序为主。
@@ -25,9 +26,9 @@
 		
 		}
 		public static void sort(int arr[]) {
-			for (int x = 0; x< arr.length ;x++) {
-				for (int y =0; y<arr.length-x-1; y++) {
-					if (arr[y] > arr[y+1]) {
+			for (int x=0; x<arr.length; x++) {
+				for (int y=0; y<arr.length-x-1; y++) {
+					if (arr[y]>arr[y+1]) {
 						int temp = arr[y];
 						arr[y] = arr[y+1];
 						arr[y+1] = temp;
@@ -36,7 +37,7 @@
 			}
 		}
 		public static void printArray(int temp[]) {
-			for(int x = 0; x<temp.length ; x++) {
+			for(int x=0; x<temp.length; x++) {
 				System.out.print(temp[x] + "、");
 			}
 			System.out.println();
@@ -46,6 +47,7 @@
 **console：**
 
 	0、1、2、3、4、5、6、7、8、9、
+		
   
 ## [返回目录](https://wuchengcheng110120.github.io/learnJava)
 ## [下一页](course17)
