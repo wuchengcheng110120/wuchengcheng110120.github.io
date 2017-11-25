@@ -21,3 +21,4 @@
 ## [课时19：数组的定义与使用（对象数组）](aliyunjava2/course19)
 ## [课时20：String类的基本特点（String类两种实例化方式）](aliyunjava2/course20)
 ## [课时21：String类的基本特点（字符串比较）](aliyunjava2/course21)
+## [课时22：String类的基本特点（字符串为匿名对象）](aliyunjava2/course22)
