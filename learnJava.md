@@ -24,3 +24,4 @@
 ## [课时22：String类的基本特点（字符串为匿名对象）](aliyunjava2/course22)
 ## [课时23：String类的基本特点（String两种实例化的区别）](aliyunjava2/course23)
 ## [课时24：String类的基本特点（字符串常量不可变更）](aliyunjava2/course24)
+## [课时25：String类的基本特点（DOC文档组成）](aliyunjava2/course25)
