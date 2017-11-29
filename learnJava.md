@@ -25,3 +25,4 @@
 ## [课时23：String类的基本特点（String两种实例化的区别）](aliyunjava2/course23)
 ## [课时24：String类的基本特点（字符串常量不可变更）](aliyunjava2/course24)
 ## [课时25：String类的常用方法（DOC文档组成）](aliyunjava2/course25)
+## [课时26：String类的常用方法（字符串与字符数组）](aliyunjava2/course26)
