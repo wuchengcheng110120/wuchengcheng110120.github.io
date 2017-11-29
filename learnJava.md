@@ -28,3 +28,4 @@
 ## [课时26：String类的常用方法（字符串与字符数组）](aliyunjava2/course26)
 ## [课时27：String类的常用方法（字节与字符串）](aliyunjava2/course27)
 ## [课时28：String类的常用方法（字符串比较）](aliyunjava2/course28)
+## [课时29：String类的常用方法（字符串查找）](aliyunjava2/course29)
