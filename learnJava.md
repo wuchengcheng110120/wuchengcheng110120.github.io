@@ -32,3 +32,4 @@
 ## [课时30：String类的常用方法（字符串替换）](aliyunjava2/course30)
 ## [课时31：String类的常用方法（字符串拆分）](aliyunjava2/course31)
 ## [课时32：String类的常用方法（字符串截取）](aliyunjava2/course32)
+## [课时33：String类的常用方法（字符串其他操作方法）](aliyunjava2/course33)
