@@ -30,3 +30,4 @@
 ## [课时28：String类的常用方法（字符串比较）](aliyunjava2/course28)
 ## [课时29：String类的常用方法（字符串查找）](aliyunjava2/course29)
 ## [课时30：String类的常用方法（字符串替换）](aliyunjava2/course30)
+## [课时31：String类的常用方法（字符串拆分）](aliyunjava2/course31)
