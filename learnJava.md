@@ -38,3 +38,4 @@
 ## [课时36：this关键字（this表示当前对象）](aliyunjava2/course36)
 ## [课时37：引用传递进阶分析](aliyunjava2/course37)
 ## [课时38：【第02个代码模型】综合案例：对象比较](aliyunjava2/course38)
+## [课时39：引用传递实际应用](aliyunjava2/course39)
