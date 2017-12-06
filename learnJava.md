@@ -40,3 +40,4 @@
 ## [课时38：【第02个代码模型】综合案例：对象比较](aliyunjava2/course38)
 ## [课时39：引用传递实际应用](aliyunjava2/course39)
 ## [课时40：【第03个代码模型】综合案例：数据表与简单Java类（一对多）](aliyunjava2/course40)
+## [课时41：【第03个代码模型】综合案例：数据表与简单Java类（多对多）](aliyunjava2/course41)
