@@ -43,3 +43,4 @@
 ## [课时41：【第03个代码模型】综合案例：数据表与简单Java类（多对多）](aliyunjava2/course41)
 ## [课时42：【第03个代码模型】综合案例：数据表与简单Java类（角色与权限）](aliyunjava2/course42)
 ## [课时43：static 关键字（static 属性）](aliyunjava2/course43)
+## [课时44：static 关键字（static 方法）](aliyunjava2/course44)
