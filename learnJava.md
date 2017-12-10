@@ -48,3 +48,4 @@
 ## [课时46：static 关键字（static应用）](aliyunjava2/course46)
 ## [课时47：代码块（普通代码块）](aliyunjava2/course47)
 ## [课时48：代码块（构造块）](aliyunjava2/course48)
+## [课时49：代码块（静态代码块）](aliyunjava2/course49)
