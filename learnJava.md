@@ -46,3 +46,4 @@
 ## [课时44：static 关键字（static 方法）](aliyunjava2/course44)
 ## [课时45：static 关键字（分析主方法）](aliyunjava2/course45)
 ## [课时46：static 关键字（static应用）](aliyunjava2/course46)
+## [课时47：代码块（普通代码块）](aliyunjava2/course47)
