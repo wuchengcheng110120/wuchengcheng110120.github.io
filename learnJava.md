@@ -51,3 +51,4 @@
 ## [课时49：代码块（静态代码块）](aliyunjava2/course49)
 ## [课时50：内部类的定义及使用（内部类基本概念）](aliyunjava2/course50)
 ## [课时51：内部类的定义及使用（static定义内部类）](aliyunjava2/course51)
+## [课时52：内部类的定义及使用（在方法中定义内部类）](aliyunjava2/course52)
