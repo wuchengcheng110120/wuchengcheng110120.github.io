@@ -36,26 +36,25 @@
 
 - 方便进行私有属性的访问
 
-	class Outer{
-		private String msg  = "Hello World ! ";
-		public void fun(int num) {
-			class Inner{
-				private String info = " mldn";
-				public void print() {
-					System.out.println(" msg = " + num);
-					System.out.println(" msg = " + msg);
+		class Outer{
+			private String msg  = "Hello World ! ";
+			public void fun(int num) {
+				class Inner{
+					private String info = " mldn";
+					public void print() {
+						System.out.println(" msg = " + num);
+						System.out.println(" msg = " + msg);
+					}
 				}
+				System.out.println(new Inner().info);
+				new Inner().print();//产生了内部类的对象并且调用方法
 			}
-			System.out.println(new Inner().info);
-			new Inner().print();//产生了内部类的对象并且调用方法
 		}
-	}
-	
-	public class TestDemo {
-		public static void main(String args[]) {
-			new Outer().fun(100);
+		public class TestDemo {
+			public static void main(String args[]) {
+				new Outer().fun(100);
+			}
 		}
-	}
 
 **console：**
 
