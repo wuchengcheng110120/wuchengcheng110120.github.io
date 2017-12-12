@@ -54,3 +54,4 @@
 ## [课时52：内部类的定义及使用（在方法中定义内部类）](aliyunjava2/course52)
 ## [课时53：继承的定义与使用（继承问题的引出）](aliyunjava2/course53)
 ## [课时54：继承的定义与使用（继承的实现）](aliyunjava2/course54)
+## [课时55：继承的定义与使用（继承使用限制）](aliyunjava2/course55)
