@@ -56,3 +56,4 @@
 ## [课时54：继承的定义与使用（继承的实现）](aliyunjava2/course54)
 ## [课时55：继承的定义与使用（继承使用限制）](aliyunjava2/course55)
 ## [课时56：覆写（方法覆写）](aliyunjava2/course56)
+## [课时57：覆写（属性覆盖）](aliyunjava2/course57)
