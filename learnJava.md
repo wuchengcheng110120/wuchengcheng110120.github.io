@@ -65,3 +65,4 @@
 ## [课时63：多态性](aliyunjava2/course63)
 ## [课时64：抽象类的定义与使用（抽象类基本概念）](aliyunjava2/course64)
 ## [课时65：抽象类的定义与使用（抽象类使用限制）](aliyunjava2/course65)
+## [课时66：抽象类的定义与使用（模板设计模式）](aliyunjava2/course66)
