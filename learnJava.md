@@ -72,3 +72,8 @@
 ## [课时70：接口的定义与使用（工厂设计模式）](aliyunjava2/course70)
 ## [课时71：接口的定义与使用（代理设计模式）](aliyunjava2/course71)
 ## [课时72：接口的定义与使用（抽象类与接口的区别）](aliyunjava2/course72)
+## [课时73：匿名内部类](aliyunjava2/course73)
+## [课时74：Object类（Object类简介）](aliyunjava2/course74)
+## [课时75：Object类（取得对象信息）](aliyunjava2/course75)
+## [课时76：Object类（对象比较）](aliyunjava2/course76)
+## [课时77：Object类（接收引用数据类型）](aliyunjava2/course77)
