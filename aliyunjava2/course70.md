@@ -2,7 +2,7 @@
 
 ## 接口的定义与使用（工厂设计模式）
 
-###Factory、重点
+### Factory、重点
 
 Java常用的设计模式：工厂、代理、单例；
 
@@ -40,42 +40,42 @@ Java实现可移植性的关键是JVM，也就是说所有的程序是在JVM上�
 
 **范例** 通过Factory设计：
 
-interface IFruit{//定义一个描述水果的操作
-	public void eat();//吃水果
-}
-class Factory {
-	//因为此时Factory 产生实例化对象没有意义
-	public static IFruit getInstance(String className) {
-		if ("apple".equals(className)) {
-			return new Apple();
+	interface IFruit{//定义一个描述水果的操作
+		public void eat();//吃水果
+	}
+	class Factory {
+		//因为此时Factory 产生实例化对象没有意义
+		public static IFruit getInstance(String className) {
+			if ("apple".equals(className)) {
+				return new Apple();
+			}
+			if ("orange".equals(className)) {
+				return new Orange();
+			}
+			return null;
 		}
-		if ("orange".equals(className)) {
-			return new Orange();
+	}
+	class Apple implements IFruit{
+		public void eat() {
+			System.out.println("削皮吃苹果！ ");
 		}
-		return null;
 	}
-}
-class Apple implements IFruit{
-	public void eat() {
-		System.out.println("削皮吃苹果！ ");
-	}
-}
-class Orange implements IFruit{
-	public void eat() {
-		System.out.println("剥皮吃橘子！ ");
-	}
-}
-public class TestDemo {
-	public static void main(String[] args) {
-		if (args.length != 1) {//没有传递一个参数
-			System.out.println("对不起，程序执行错误，正确的格式："
-					+ "java TestDemo 类名称");
-			System.exit(1);//退出程序执行
+	class Orange implements IFruit{
+		public void eat() {
+			System.out.println("剥皮吃橘子！ ");
 		}
-		IFruit fruit = Factory.getInstance(args[0]);
-		fruit.eat();
 	}
-}
+	public class TestDemo {
+		public static void main(String[] args) {
+			if (args.length != 1) {//没有传递一个参数
+				System.out.println("对不起，程序执行错误，正确的格式："
+						+ "java TestDemo 类名称");
+				System.exit(1);//退出程序执行
+			}
+			IFruit fruit = Factory.getInstance(args[0]);
+			fruit.eat();
+		}
+	}
 
 当更换使用的IFruit子类的时候主方法没有任何变化就可以实现了子类的变更，这样的设计就成为工厂设计模式。
 
