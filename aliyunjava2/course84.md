@@ -1,6 +1,6 @@
 ## [上一页](course83)
 
-## 包的定义及使用（访问控制权限）
+## 访问控制权限
 
 private是一种访问控制权限，只是封装的一部分，在java中提供有四种访问控制权限：private、default、protected、public，而这四种访问控制权限定义如下：
 
