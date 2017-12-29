@@ -49,6 +49,8 @@ Source》Generate toString（）；
 
 - ctrl + shift + L： 快捷键列表；
 
+- alt + shift +  J： 快捷注释；
+
 
 项目导入或者导出等操作，Java程序最终都要求以*.jar文件的形式给出，这样就要保证在程序类可以进行打包的操作，而这种打包操作可以用Eclipse直接完成。【File】》【Export】
 
