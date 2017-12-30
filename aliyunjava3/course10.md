@@ -55,34 +55,34 @@
 
 既然泛型造成了类型的困扰那就不再设置泛型？
 
-package cn.mldn.demo;
+			package cn.mldn.demo;
 
-class Message<T>{
-	private T note;
+			class Message<T>{
+				private T note;
 
-	public T getNote() {
-		return note;
-	}
+				public T getNote() {
+					return note;
+				}
 
-	public void setNote(T note) {
-		this.note = note;
-	}
-}
-public class TestDemo {
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		Message<Integer> msg = new Message<Integer>();
-		msg.setNote(99); 
-		fun(msg);//出现错误，因为只能够接受String
-	}
-	//如果没有设置泛型类型，那么默认用的类型就是Object 
-	public static void fun(Message temp){
-		temp.setNote("天天很帅气！");
-		System.out.println(temp.getNote());
-	}
-}
+				public void setNote(T note) {
+					this.note = note;
+				}
+			}
+			public class TestDemo {
+				/**
+				 * @param args
+				 */
+				public static void main(String[] args) {
+					Message<Integer> msg = new Message<Integer>();
+					msg.setNote(99); 
+					fun(msg);//出现错误，因为只能够接受String
+				}
+				//如果没有设置泛型类型，那么默认用的类型就是Object 
+				public static void fun(Message temp){
+					temp.setNote("天天很帅气！");
+					System.out.println(temp.getNote());
+				}
+			}
 ## console：
 
     天天很帅气！
