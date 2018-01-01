@@ -34,6 +34,66 @@
 
 **范例** 引用某个对象中的方法：
 
+	package cn.mldn.demo;
+	
+	interface IUtil<R>{
+		public R zhuanhuan();
+	}
+	
+	public class TestDemo {
+		public static void main(String[] args) {
+			IUtil<String> iu = "hello" :: toUpperCase;//进行方法引用
+			System.out.println(iu.zhuanhuan());//相当于转换的是“hello”
+		}
+	}
+
+
+**范例** 引用类中的普通方法：
+
+- String类中有一个compareTo（），进行比较大小；
+
+	package cn.mldn.demo;
+	
+	interface IUtil<R,P>{
+		public R 比较(P p1,P p2);
+	}
+	
+	public class TestDemo {
+		public static void main(String[] args) {
+			IUtil<Integer,String> iu = String::compareTo;//进行方法引用
+			System.out.println(iu.比较("H", "h"));//相当于转换的是“hello”
+		}
+	}
+
+**范例** 引用构造方法：
+
+	package cn.mldn.demo;
+	
+	class Person{
+		private String name;
+		private int age;
+		public Person(String name, int age) {
+			this.name = name;
+			this.age = age;
+		}
+		@Override
+		public String toString() {
+			return "Person [name=" + name + ", age=" + age + "]";
+		}
+	}
+	@FunctionalInterface
+	interface IUtil<R,FP,SP>{
+		public R creat(FP p1, SP p2);
+	}
+	
+	public class TestDemo {
+		public static void main(String[] args) {
+			IUtil<Person,String,Integer> iu = Person :: new;
+			System.out.println(iu.creat("张三", 20));
+		}
+	}
+
+这些都属于Lambda的补充。
 
 
 
