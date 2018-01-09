@@ -1,7 +1,7 @@
 ## [上一页](course14)
-## where语句中的in操作符使用
+## where语句中的between操作符使用
 
-### in语法
+### between语法
 
 select * from 表名 where 列名 between 值1 and 值2
 
