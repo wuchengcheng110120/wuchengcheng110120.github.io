@@ -9,3 +9,5 @@
 [SQL和MySQL简介](course00)
 
 [查看、添加和删除数据库](course01)
+
+[数据类型]（course02）
