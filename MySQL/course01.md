@@ -1,3 +1,4 @@
+## [上一页](course00)
 ## 添加和删除数据库
 
 ## 命令
@@ -13,5 +14,10 @@
 删除DB: drop database gc；
 
 ![](http://ww4.sinaimg.cn/large/0060lm7Tly1fna61jjo16j308l06xa9y.jpg)
+
+
+
+## [返回目录](https://wuchengcheng110120.github.io/MySQL/learnMySQL)
+## [下一页](course02)
 
 
