@@ -3,6 +3,8 @@
 
 ## 命令
 
+mysql -u root -p    //输入用户名，密码
+
 查看当前有哪些DB：show databases；
 
 ![](http://ww2.sinaimg.cn/large/0060lm7Tly1fna60y0vnpj308405ma9w.jpg)
