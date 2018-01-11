@@ -48,6 +48,21 @@
 ## [课时45：对象克隆](course45)
 ## [课时46：【第07个代码模型】日期处理类（Data类）](course46)
 ## [课时47：【第07个代码模型】日期处理类（SimpleDateFormat类）](course47)
+## [课时48： 数字操作类（Math类）](course48)
+## [课时49： 数字操作类（随机数）](course49)
+## [课时50： 数字操作类（大数字操作）](course50)
+## [课时51： Array类](course51)
+## [课时52： 比较器（Comparable）](course52)
+## [课时53： 比较器（二叉树）](course53)
+## [课时54： 比较器（Comparator）](course54)
+## [课时55： 国际化程序（国际化实现原理）](course55)
+## [课时56： 国际化程序（Locale类）](course56)
+## [课时57： 国际化程序（ResourceBundle）](course57)
+## [课时58： 国际化程序（国际化程序实现）](course58)
+## [课时59： 观察者设计模式](course59)
+## [课时60： 定时器](course60)
+## [课时61： UUID类](course61)
+
 
 
 
