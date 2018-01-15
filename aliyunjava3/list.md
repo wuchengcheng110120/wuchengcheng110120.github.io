@@ -68,3 +68,7 @@
 
 
 ## [课时68：File文件操作类（File类基本操作）](course68)
+
+## [课时119：JDBC 简介 ](course119)
+
+## [课时120：连接Oracle数据库 ](course120)
