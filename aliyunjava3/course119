@@ -1,0 +1,18 @@
+## [上一页](course118)
+## JDBC简介
+
+项目开发过程中，数据库操作是极为重要的，所以在Java中针对于数据库的开发操作就提供了一个标准JDBC标准，JDBC就是一项服务；
+
+在Java里面由于世界上开始流行有大量的数据库，所以它在设计的时候就充分的考虑到了环境因素，JDBC是一个专门针对于关系型数据库的开发服务。
+
+![](http://ww3.sinaimg.cn/large/0060lm7Tly1fnhdqwg6r2j30vd0higr9.jpg)
+
+
+
+
+
+
+
+
+## [返回目录](https://wuchengcheng110120.github.io/aliyunjava3/list)
+## [下一页](course120)
