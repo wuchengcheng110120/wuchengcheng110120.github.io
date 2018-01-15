@@ -14,4 +14,4 @@
 
 [JDBC连接MySQL的方法和实例](https://www.cnblogs.com/newcaoguo/p/5801134.html)
 
-
+[JOracle常用命令](https://www.cnblogs.com/chinafine/articles/1755405.html)
