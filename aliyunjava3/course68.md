@@ -24,7 +24,7 @@ java.io.File是一个普通的类，所以这个类的使用直接产生实例�
 	
 	public class TestDemo {
 		public static void main(String[] args) throws Exception {
-			File file = new File("d:\\hello.text");
+			File file = new File("d:\\hello.txt");
 			file.createNewFile();
 		}
 	}
@@ -42,7 +42,7 @@ java.io.File是一个普通的类，所以这个类的使用直接产生实例�
 	
 	public class TestDemo {
 		public static void main(String[] args) throws Exception {
-			File file = new File("d:\\hello.text");
+			File file = new File("d:\\hello.txt");
 			if (file.exists()) {//文件存在
 				file.delete();//文件删除
 			}else {
@@ -58,7 +58,7 @@ java.io.File是一个普通的类，所以这个类的使用直接产生实例�
 这个时候路径的问题就很麻烦了，Windows使用的是“\”,而Unix下使用的都是“/”,所以在使用路径分隔符的时候都会采用File类的一个常量来描述：public static final String separator
 
 	//由操作系统所在的JVM决定最终的separator是什么内容
-		File file = new File("d:"+File.separator+"hello.text");
+		File file = new File("d:"+File.separator+"hello.txt");
 
 - 因为在Java中要进行文件处理需要本地操作系统的支持，这之中如果操作的是同名文件，就有可能出现延迟的问题。
 
