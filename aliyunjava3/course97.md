@@ -55,6 +55,7 @@
 			return null;
 		}
 	}
+
 ![](http://ww2.sinaimg.cn/large/0060lm7Tly1fnu6gabwm7j30vg0hkjwm.jpg)
 
 所以传统工厂类的弊端： 关键字new。如果想要处理关键字new带来的问题，最好的做法就是通过反射来完成处理，因为Class类可以使用newInstance()实例化对象，同时Class.forName()能够接收String这个类名称。
