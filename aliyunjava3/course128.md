@@ -13,11 +13,8 @@
 
 在实际的开发之中对于这些数据结构的使用都有一些共性的特点：存储、取出。
 
-
-
-
-
+Java类集就是java的数据结构的实现，动态对象数组。
 
 
 ## [返回目录](https://wuchengcheng110120.github.io/aliyunjava3/list)
-## [下一页](course127)
+## [下一页](course129)
