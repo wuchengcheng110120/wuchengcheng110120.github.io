@@ -1,5 +1,5 @@
 ## [上一页](course134)
-##  【第18个代码模型】 Set集合接口（Set接口常用子类）
+##  【第19个代码模型】 Set集合接口（Set接口常用子类）
 
 Set接口与List接口最大的不同在于Set接口中的内容是不允许重复的，同时也需要注意一点，Set与List还有一个最大的不同在于：Set接口并没有对Collection接口进行扩充，而List对Collection进行了扩充。由于是JDK1.8的原因所以在Collection接口里面也提供有一些default方法，而这些方法并没有在Set接口出现。也就是说Set接口里面是不可能直接使用get()方法进行处理的，而在Set子接口中有两个常用的子类：HashSet、TreeSet。
 
