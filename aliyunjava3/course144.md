@@ -1,4 +1,4 @@
-## [上一页](course143
+## [上一页](course143)
 ##  【第21个代码模型】 Map集合（Hashtable子类）
 
 JDK1.0提供有三大主要类：Vector、Enumeration、Hashtable。Hashtable是最早实现这种二元偶对象数据结构的，后期的设计也让其与Vector类一样多实现了Map接口而已。
