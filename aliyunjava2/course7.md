@@ -229,39 +229,39 @@
 
 **范例** 构造方法重载：
 
-class Person{
-		private String name;
-		private int age;
-		public Person() {}
-		public Person(String n) {
-			name = n;
-		}
-		//定义一个有参构造方法，则默认的无参构造方法将不会在编译时生成
-		public Person(String n, int a) {
-			name = n;//setName(n)
-			setAge(a);
-		}
-		public void setName(String n) {
-			name = n;
-		}
-		public void setAge(int a) {
-			if(a >= 0 && a<= 250) {
-				age = a;
-			}else {
-				age = 0;
+	class Person{
+			private String name;
+			private int age;
+			public Person() {}
+			public Person(String n) {
+				name = n;
+			}
+			//定义一个有参构造方法，则默认的无参构造方法将不会在编译时生成
+			public Person(String n, int a) {
+				name = n;//setName(n)
+				setAge(a);
+			}
+			public void setName(String n) {
+				name = n;
+			}
+			public void setAge(int a) {
+				if(a >= 0 && a<= 250) {
+					age = a;
+				}else {
+					age = 0;
+				}
+			}
+			public String getName() {
+				return name;
+			}
+			public int getAge() {
+				return age;
+			}
+			public void info() {
+				System.out.println("name = "+ name + "、age = "+  age);
 			}
 		}
-		public String getName() {
-			return name;
-		}
-		public int getAge() {
-			return age;
-		}
-		public void info() {
-			System.out.println("name = "+ name + "、age = "+  age);
-		}
-	}
-	public class TestDemo {
+		public class TestDemo {
 	
 		public static void main(String[] args) {
 			Person per = new Person("张三",-200);
