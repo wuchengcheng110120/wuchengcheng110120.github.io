@@ -11,13 +11,14 @@
 如果想要清楚封装，先要知道没有封装会怎么样。
 
 **范例** 
-	class Person{
-		String name;
-		int age;
-		public void info() {
-			System.out.println("name = "+ name + "、age = "+  age);
+		
+		class Person{
+			String name;
+			int age;
+			public void info() {
+				System.out.println("name = "+ name + "、age = "+  age);
+			}
 		}
-	}
 
 	public class TestDemo {
 		
@@ -63,9 +64,9 @@
    
 	private String name：public void setName(String n);
 
-- setter方法：主要用于属性内容的取得；
+- getter方法：主要用于属性内容的取得；
      
-	private String name：public void setName(String n);
+	private String name：public void getName(String n);
 
 **范例** 扩展Person类中的内容：
 
